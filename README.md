@@ -29,7 +29,7 @@ Ir a sua pasta de projectos no seu computador e escrever no CMD
 Agora cole dentro da pasta os teus projectos de PDM, tenha o hábito de criar projectos nesta pasta.
 
 ### **Fazer commits regularmente:**  
-Abra o CMD na pasta do repositório
+Abra o CMD na pasta do repositório, isto sempre que quiseres adicionar online
    ```bash
    git add .
    git commit -m "Adicionei a resolução do TPC 1"
