@@ -20,10 +20,12 @@ O objectivo é partilhar as soluções dos exercícios e projectos criados para 
 ### **Clonar o repositório e criar a sua branch:**  
 Ir a sua pasta de projectos no seu computador e escrever no CMD
    ```bash
-   git clone [https://github.com/turma/turma-projeto.git](https://github.com/Mauroreis100/PDM_LECC41_2025.git)
+   git clone https://github.com/Mauroreis100/PDM_LECC41_2025.git
    cd turma-projeto
    git checkout -b aluno-nome
    ```
+
+Agora cole dentro da pasta os teus projectos de PDM, tenha o hábito de criar projectos nesta pasta.
 
 ### **Fazer commits regularmente:**  
    ```bash
@@ -41,6 +43,7 @@ Antes de iniciar um projecto faça o
 git pull
 ```
 Se tiver conflictos e problemas não tenha medo de pedir ajuda
+
 NINGUÉM TRABALHA NA MAIN!!!!
 
 
