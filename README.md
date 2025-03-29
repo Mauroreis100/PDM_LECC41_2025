@@ -20,7 +20,7 @@ O objectivo é partilhar as soluções dos exercícios e projectos criados para 
 ### **Clonar o repositório e criar a sua branch:**  
 Ir a sua pasta de projectos no seu computador e escrever no CMD
    ```bash
-   git clone https://github.com/turma/turma-projeto.git
+   git clone [https://github.com/turma/turma-projeto.git](https://github.com/Mauroreis100/PDM_LECC41_2025.git)
    cd turma-projeto
    git checkout -b aluno-nome
    ```
