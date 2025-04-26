@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 
 class ListaProduto extends StatelessWidget {
-
   final List<String> produtos = [
     'Banana',
     'Cebola',
     'Batata',
     'Tomate',
     'Laranja',
-    
   ];
 
   final List<String> descricoes = [
@@ -16,17 +14,19 @@ class ListaProduto extends StatelessWidget {
     'Utiliza como forte em fibras, vitaminas e minerais',
     'Rica em vitamina C, previne e trata doenças como anemia e diabetes',
     'Rica em vitamina C, o potássio, o genérico e rico em niacina',
-    'Rica em vitamina c, e complexo B, energetico e rico em niacina',
+    'Rica em vitamina C e complexo B, energético e rico em niacina',
   ];
 
   final List<String> imagens = [
-    'assets/banana.png',
-    'assets/cebola.png',
-    'assets/batata.png',
-    'assets/tomate.png',
-    'assets/potato',
+    'lib/list_view/assets/banana.png',
+    'lib/list_view/assets/onion.png',
+    'lib/list_view/assets/orange.png',
+    'lib/list_view/assets/tomato.png',
+    'lib/list_view/assets/potato.png', // Corrigido aqui também!
   ];
+
   ListaProduto({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -42,7 +42,8 @@ class ListaProduto extends StatelessWidget {
               width: 60,
               height: 60,
               fit: BoxFit.fill,
-            ),
+              ), 
+            
             title: Text(
               produtos[index],
               style: TextStyle(
