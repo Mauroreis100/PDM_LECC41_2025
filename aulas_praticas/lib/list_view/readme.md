@@ -1,0 +1,1 @@
+# COLOCAR DIRECTORIO RELATIVE SÓ QUE NÃO, MEU publicsec tem mas não vou tirar pq tenho medo 
