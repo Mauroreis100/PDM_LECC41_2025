@@ -14,3 +14,12 @@ void main() async {
     print("Hello! (•‿•)");
   });
 }
+
+
+//O que se coloca para ter a renderização de telas.
+// Não precisas de colocar async no main. Define a prioridade da pilha de eventos
+void carregamento() async{
+  await Future.delayed(Duration(seconds: 2), () {
+    print("Loading your file...");
+  });
+}

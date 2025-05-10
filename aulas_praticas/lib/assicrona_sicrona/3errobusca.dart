@@ -9,11 +9,10 @@ void main() async {
     await Future.delayed(Duration(seconds: 2), () async {
       String data = await rootBundle.loadString('assets/produto.txt');
       debugPrint(data);
-
       throw Exception("Produto não encontrado");
     });
   } catch (e) {
-    print(e);
+    print(e.toString());
   } finally {
     print("Finalizando busca...");
   } 
