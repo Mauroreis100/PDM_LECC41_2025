@@ -4,7 +4,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:flutter/material.dart';
 
 
-void main() {
+void main() async{
   runApp(const MyApp());
 }
 
@@ -14,10 +14,13 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   final _filename= 'example.txt';
 
+  Future<File> _getFile() async {
+    final documents = await getApplicationDocumentsDirectory();
+    return File('${documents.path}/$_filename');
+  }
+
   @override
   Widget build(BuildContext context) {
-    Directory documents = await getApplicationDocumentsDirectory();
-    File file = File('${documents.path}/$_filename');
     return MaterialApp(
       title: 'Path Provider Example',
       theme: ThemeData(
